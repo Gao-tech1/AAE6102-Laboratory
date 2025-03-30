@@ -102,11 +102,9 @@ The accuracy of each library is measured by the following metrics:
 
 **Key observations:**
 
-- GraphGNSSLib's FGO approach shows 37.4% improvement in 2D accuracy over pntpos
-- RTK mode reduces East error by 36.3% compared to single-point positioning
-- North component shows best performance across all methods
-
-The results show that the **psr_dopp_fusion** with ***GraphGNSSLib*** performs best in terms of accuracy, with the lowest mean error and RMSE across all directions. The **RTK** library follows closely, with better performance than **Pntpos**.
+- *GraphGNSSLib*'s FGO approach shows 48.98% improvement in 2D accuracy over pntpos
+- RTK mode reduces East error by 26.286% compared to single-point positioning
+- The results show that the **psr_dopp_fusion** with *GraphGNSSLib* performs best in terms of accuracy, with the lowest mean error and RMSE across all directions. The **RTK** library follows closely, with better performance than **pntpos**.
 
 **Performance Visualization**
 Positioning Results | Positioning Errors
@@ -138,8 +136,6 @@ Overall, **RTKLIB**with GUI is easier for beginner GNSS users, while **GraphGNSS
 - **psr_dopp_fusion**: Offers greater flexibility, particularly in terms of sensor fusion and integration with other GNSS solutions.
 - **rtk**: More rigid but highly optimized for real-time applications.
 - **pntpos**: Less flexible compared to the other two but suitable for standard GNSS applications.
-
-
 
 
 ---
