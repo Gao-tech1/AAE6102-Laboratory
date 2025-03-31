@@ -21,9 +21,55 @@ This repository presents a comparative analysis of three GNSS positioning librar
 
 ## Experimental Setup
 
+### Prerequisites
+####  **Ubuntu** and **ROS**
+Ubuntu 64-bit 18.04, ROS melodic. [ROS Installation](http://wiki.ros.org/ROS/Installation). We only test it on Ubuntu 18.04 with ROS Melodic. 
+
+####  **Ceres Solver**
+Follow the following instructions to install Ceres-solver instead of using the latest version of Ceres-solver.
+
+**Step 1**: Download the [Ceres-solver](https://github.com/weisongwen/GraphGNSSLib/tree/master/support_files) which is compatible with GraphGNSSLib. 
+
+**Step 2**: make and install
+```bash
+sudo apt-get install cmake
+# google-glog + gflags
+sudo apt-get install libgoogle-glog-dev
+# BLAS & LAPACK
+sudo apt-get install libatlas-base-dev
+# Eigen3
+sudo apt-get install libeigen3-dev
+# make Ceres-solver
+mkdir ceres-bin
+cd ceres-bin
+cmake ../ceres-solver
+sudo make -j4
+sudo make test
+sudo make install
+```
+
+####  **Extra Libraries**
+```bash
+sudo apt-get install ros-melodic-novatel-msgs
+```
+###  Build AAE6102-Laboratory
+Clone the repository and catkin_make:
+```bash
+mkdir AAE6102-Laboratory/src
+cd ~/AAE6102-Laboratory/src
+mkdir result
+git clone https://github.com/Gao-tech1/AAE6102-Laboratory.git
+cd ../
+# if you fail in the last catkin_make, please source and catkin_make again
+catkin_make
+source devel/setup.bash
+catkin_make
+```
+(**if you fail in this step, try to find another computer with clean system or reinstall Ubuntu and ROS**)
+
 ### Configuration
 Modify the following parameters in `rtklib.h`:
-```ros
+```c
 /** Whampoa dataset reference positions **/
 #define ref_lon    114.190305193    // Reference longitude (deg)
 #define ref_lat    22.301575393     // Reference latitude (deg)
@@ -39,7 +85,7 @@ Modify the following parameters in `rtklib.h`:
 ### Launch File Configuration
 Configure dataublox_Whampoa_20210521.launch:
 
-```
+```c
 <!-- Data intro (ublox, GPS/BeiDou, 20210521)
 This data is starts from the Whampoa -->
 <launch>
@@ -74,14 +120,7 @@ This data is starts from the Whampoa -->
 </launch>
 ```
 
-Then please execute the procedure with following steps
-```
-cd ~/GraphGNSSLib
-catkin_make
-source devel/setup.bash
-roslaunch global_fusion dataublox_Whampoa_20210521.launch
-```
-The pesudorange-doppler fusion with FGO method has a rosbuster solution in urban canyons.
+
 
 
 
