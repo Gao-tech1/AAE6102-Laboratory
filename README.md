@@ -109,7 +109,7 @@ The accuracy of each library is measured by the following metrics:
 **Performance Visualization**
 Positioning Results | Positioning Errors
 --- | ---
-![](AAElab1_positioning_Results.png) | ![](AAElab1_positioning_Error.png)
+![](img/AAElab1_positioning_Results.png) | ![](img/AAElab1_positioning_Error.png)
 
 ---
 
