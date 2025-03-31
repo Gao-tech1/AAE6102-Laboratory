@@ -3,6 +3,8 @@
 ## Introduction
 This repository presents a comparative analysis of three GNSS positioning libraries using the UrbanAv Whampoa dataset. The evaluation focuses on accuracy metrics and practical implementation considerations for urban navigation scenarios.
 
+---
+
 ## Dataset Overview
 - **Dataset**: UrbanNav-HK-Deep-Urban-1
 - **Source**: [IPNL-POLYU/UrbanNavDataset](https://github.com/IPNL-POLYU/UrbanNavDataset)
@@ -11,6 +13,8 @@ This repository presents a comparative analysis of three GNSS positioning librar
   - Collection period: 2021-05-21 06:28:44 to 06:54:22 (GPS time)
   - Contains u-blox F9P rover data and base station measurements
 
+---
+
 ## Evaluated Libraries
 1. **GraphGNSSLib** (`psr_dopp_fusion`)
    - Pseudorange-Doppler fusion with Factor Graph Optimization (FGO)
@@ -18,6 +22,8 @@ This repository presents a comparative analysis of three GNSS positioning librar
    - Standard single-point positioning
 3. **RTKLIB** (`rtk`)
    - Real-Time Kinematic (RTK) solution
+
+---
 
 ## Experimental Setup
 
@@ -52,6 +58,7 @@ sudo make install
 ```bash
 sudo apt-get install ros-melodic-novatel-msgs
 ```
+
 ###  Build AAE6102-Laboratory
 Clone the repository and catkin_make:
 ```bash
@@ -85,7 +92,7 @@ Modify the following parameters in `rtklib.h`:
 ### Launch File Configuration
 Configure dataublox_Whampoa_20210521.launch:
 
-```c
+```xml
 <!-- Data intro (ublox, GPS/BeiDou, 20210521)
 This data is starts from the Whampoa -->
 <launch>
@@ -121,6 +128,8 @@ This data is starts from the Whampoa -->
 ```
 
 
+
+---
 
 
 
