@@ -164,49 +164,7 @@ Positioning Results | Positioning Errors
 
 ---
 
-## Comparative Evaluation
-### **Strengths**:
-### 1. **Accuracy**
 
-Accuracy is essential for any GNSS solution. Based on the results above, we can conclude the following:
-
-- **psr_dopp_fusion**: The most accurate library across all dimensions (East, North, and 2D).
-- **RTK**: Provides reasonably accurate results, but not as precise as **psr_dopp_fusion**.
-- **pntpos**: Shows higher mean errors and RMSE, making it the least accurate among the three.
-
-### 2. **Ease of Use**
-
-- **pntpos** (RTKLIB): Generally considered easier to use due to its straightforward implementation.
-- **rtk** (RTKLIB): Similarly easy to use but requires base station dataset for precise setups.
-- **psr_dopp_fusion** (GraphGNSSLib): Requires more in-depth setup, but provides more flexibility for advanced use cases.
- 
-Overall, **RTKLIB** with GUI is easier for beginner GNSS users, while **GraphGNSSLib** is more suited for advanced users who need customization.
-
-### 3. **Flexibility**
-
-- **psr_dopp_fusion**: Offers greater flexibility, particularly in terms of sensor fusion and integration with other GNSS solutions.
-- **rtk**: More rigid but highly optimized for real-time applications.
-- **pntpos**: Less flexible compared to the other two but suitable for standard GNSS applications.
-
-### 4. **Robustness**
-- **psr_dopp_fusion**: The use of Factor Graph Optimization enhances the system's resilience to measurement noise and environmental factors, providing reliable results even under adverse conditions.
-- **rtk**: RTK maintains accuracy robustness under varying conditions and can effectively handle multipath and other common GNSS errors.
-- **pntpos**: Easy to use and still providing reasonable accuracy for many applications, it is a reliable choice for fast positioning needs.
-
-### **Limitations**:
-### 1. **Computational Efficiency**
-
-- **psr_dopp_fusion**: The optimization processes can be computationally intensive, potentially requiring significant processing power, especially for real-time applications.
-- **rtk**: While offering high accuracy, the computational demands can increase, particularly with larger datasets and more complex configurations.
-- **pntpos**: Generally efficient for quick calculations, but lacks the advanced capabilities needed for high-precision applications, which may lead to performance bottlenecks in demanding scenarios.
-
-### 2. **Lack of Specific Features**
-
-- **psr_dopp_fusion**: Lack some advanced functionalities found in commercial GNSS solutions, which could limit its applicability in specialized scenarios.
-- **rtk**: It's robust, but it doesn't include certain specialized features that are present in proprietary software, requiring users to seek additional resources for specific needs.
-- **pntpos**: As a basic positioning solution, it doesn't provide the advanced features necessary for high-accuracy applications, so it may need additional tools.
-
----
 
 ## Conclusion
 
