@@ -14,6 +14,9 @@ This repository presents a comparative analysis of three GNSS positioning librar
   - Contains u-blox F9P rover data and base station measurements
 
 ---
+## Lab Report
+
+[Lab Report](https://github.com/Gao-tech1/AAE6102-Laboratory/tree/main/report/README.md)
 
 ## Evaluated Libraries
 1. **GraphGNSSLib** (`psr_dopp_fusion`)
