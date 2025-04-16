@@ -20,9 +20,9 @@
 <div align="center">
     <table>
         <tr>
-            <td align="center"><img src="../img/image.png" alt="L1" style="width: 30%; height: auto;"><br>L1</td>
-            <td align="center"><img src="../img/dynamic_1.png" alt="L1+L2/E5b" style="width: 30%; height: auto;"><br>L1+L2/E5b</td>
-            <td align="center"><img src="../img/image-1.png" alt="L1+L2/E5b + L5/E5a+L6" style="width: 30%; height: auto;"><br>L1+L2/E5b + L5/E5a+L6</td>
+            <td align="center"><img src="../img/image.png" alt="L1" style="width: 100%; height: auto;"><br>L1</td>
+            <td align="center"><img src="../img/dynamic_1.png" alt="L1+L2/E5b" style="width: 100%; height: auto;"><br>L1+L2/E5b</td>
+            <td align="center"><img src="../img/image-1.png" alt="L1+L2/E5b + L5/E5a+L6" style="width: 100%; height: auto;"><br>L1+L2/E5b + L5/E5a+L6</td>
         </tr>
     </table>
 </div>
@@ -31,9 +31,9 @@
 <div align="center">
     <table>
         <tr>
-            <td align="center"><img src="../img/image-31.png" alt="L1" style="width: 30%; height: auto;"><br>L1</td>
-            <td align="center"><img src="../img/image-25.png" alt="L1+L2/E5b" style="width: 30%; height: auto;"><br>L1+L2/E5b</td>
-            <td align="center"><img src="../img/image-33.png" alt="L1+L2/E5b + L5/E5a" style="width: 30%; height: auto;"><br>L1+L2/E5b + L5/E5a+L6</td>
+            <td align="center"><img src="../img/image-31.png" alt="L1" style="width: 100%; height: auto;"><br>L1</td>
+            <td align="center"><img src="../img/image-25.png" alt="L1+L2/E5b" style="width: 100%; height: auto;"><br>L1+L2/E5b</td>
+            <td align="center"><img src="../img/image-33.png" alt="L1+L2/E5b + L5/E5a" style="width: 100%; height: auto;"><br>L1+L2/E5b + L5/E5a+L6</td>
         </tr>
     </table>
 </div>
