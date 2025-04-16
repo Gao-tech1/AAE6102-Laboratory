@@ -45,17 +45,15 @@
 
 ### 1.2 pos1-elmask
 #### 1.2.1 Dynamic Data
-<div style="display: flex; justify-content: space-around; align-items: center;">
-    <img src="../img/image-3.png" alt="0 degree" style="width: 22%; height: auto;">
-    <img src="../img/image-2.png" alt="15 degree" style="width: 22%; height: auto;">
-    <img src="../img/image-4.png" alt="30 degree" style="width: 22%; height: auto;">
-    <img src="../img/image-6.png" alt="35 degree" style="width: 22%; height: auto;">
-</div>
-<div style="display: flex; justify-content: space-around; align-items: center; margin-top: 10px;">
-    <p style="text-align: center; width: 22%;">0 degree</p>
-    <p style="text-align: center; width: 22%;">15 degree</p>
-    <p style="text-align: center; width: 22%;">30 degree</p>
-    <p style="text-align: center; width: 22%;">35 degree</p>
+<div align="center">
+    <table>
+        <tr>
+            <td align="center"><img src="../img/image-3.png" alt="0 degree" style="width: 100%; height: auto;"><br>0 degree</td>
+            <td align="center"><img src="../img/image-2.png" alt="15 degree" style="width: 100%; height: auto;"><br>15 degree</td>
+            <td align="center"><img src="../img/image-4.png" alt="30 degree" style="width: 100%; height: auto;"><br>30 degree</td>
+            <td align="center"><img src="../img/image-6.png" alt="35 degree" style="width: 100%; height: auto;"><br>35 degree</td>
+        </tr>
+    </table>
 </div>
 
 <div style="display: flex; justify-content: space-around; align-items: center;">
