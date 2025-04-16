@@ -17,27 +17,25 @@
 
 ### 1.1 pos1-frequency 
 #### 1.1.1 Dynamic Data
-<div style="display: flex; justify-content: space-around; align-items: center;">
-    <img src="../img/image.png" alt="L1" style="width: 30%; height: auto;">
-    <img src="../img/dynamic_1.png" alt="L1+L2/E5b" style="width: 30%; height: auto;">
-    <img src="../img/image-1.png" alt="L1+L2/E5b + L5/E5a+L6" style="width: 30%; height: auto;">
-</div>
-<div style="display: flex; justify-content: space-around; align-items: center; margin-top: 10px;">
-    <p style="text-align: center; width: 30%;">L1</p>
-    <p style="text-align: center; width: 30%;">L1+L2/E5b</p>
-    <p style="text-align: center; width: 30%;">L1+L2/E5b + L5/E5a+L6</p>
+<div align="center">
+    <table>
+        <tr>
+            <td align="center"><img src="../img/image.png" alt="L1" style="width: 30%; height: auto;"><br>L1</td>
+            <td align="center"><img src="../img/dynamic_1.png" alt="L1+L2/E5b" style="width: 30%; height: auto;"><br>L1+L2/E5b</td>
+            <td align="center"><img src="../img/image-1.png" alt="L1+L2/E5b + L5/E5a+L6" style="width: 30%; height: auto;"><br>L1+L2/E5b + L5/E5a+L6</td>
+        </tr>
+    </table>
 </div>
 
 #### 1.1.2 UrbanNav - Medium
-<div style="display: flex; justify-content: space-around; align-items: center;">
-    <img src="../img/image-31.png" alt="L1" style="width: 30%; height: auto;">
-    <img src="../img/image-25.png" alt="L1+L2/E5b" style="width: 30%; height: auto;">
-    <img src="../img/image-33.png" alt="L1+L2/E5b + L5/E5a" style="width: 30%; height: auto;">
-</div>
-<div style="display: flex; justify-content: space-around; align-items: center; margin-top: 10px;">
-    <p style="text-align: center; width: 30%;">L1</p>
-    <p style="text-align: center; width: 30%;">L1+L2/E5b</p>
-    <p style="text-align: center; width: 30%;">L1+L2/E5b + L5/E5a</p>
+<div align="center">
+    <table>
+        <tr>
+            <td align="center"><img src="../img/image-31.png" alt="L1" style="width: 30%; height: auto;"><br>L1</td>
+            <td align="center"><img src="../img/image-25.png" alt="L1+L2/E5b" style="width: 30%; height: auto;"><br>L1+L2/E5b</td>
+            <td align="center"><img src="../img/image-33.png" alt="L1+L2/E5b + L5/E5a" style="width: 30%; height: auto;"><br>L1+L2/E5b + L5/E5a+L6</td>
+        </tr>
+    </table>
 </div>
 
 #### 1.1.3 Conclusion
@@ -56,75 +54,65 @@
     </table>
 </div>
 
-<div style="display: flex; justify-content: space-around; align-items: center;">
-    <img src="../img/image-7.png" alt="40 degree" style="width: 25%; height: auto;">
-    <img src="../img/image-8.png" alt="45 degree" style="width: 25%; height: auto;">
-    <img src="../img/image-5.png" alt="50 degree" style="width: 25%; height: auto;">
-    <img src="../img/image-9.png" alt=">= 55 degree" style="width: 25%; height: auto;">
-</div>
-<div style="display: flex; justify-content: space-around; align-items: center; margin-top: 10px;">
-    <p style="text-align: center; width: 22%;">40 degree</p>
-    <p style="text-align: center; width: 22%;">45 degree</p>
-    <p style="text-align: center; width: 22%;">50 degree</p>
-    <p style="text-align: center; width: 22%;">>= 55 degree</p>
+<div align="center">
+    <table>
+        <tr>
+            <td align="center"><img src="../img/image-7.png" alt="40 degree" style="width: 100%; height: auto;"><br>40 degree</td>
+            <td align="center"><img src="../img/image-8.png" alt="45 degree" style="width: 100%; height: auto;"><br>45 degree</td>
+            <td align="center"><img src="../img/image-5.png" alt="50 degree" style="width: 100%; height: auto;"><br>50 degree</td>
+            <td align="center"><img src="../img/image-9.png" alt=">= 55 degree" style="width: 100%; height: auto;"><br>>= 55 degree</td>
+        </tr>
+    </table>
 </div>
 
 #### 1.2.2 UrbanNav - Medium
-<div style="display: flex; justify-content: space-around; align-items: center;">
-    <img src="../img/image-24.png" alt="0 degree" style="width: 25%; height: auto;">
-    <img src="../img/image-25.png" alt="15 degree" style="width: 25%; height: auto;">
-    <img src="../img/image-26.png" alt="30 degree" style="width: 25%; height: auto;">
-    <img src="../img/image-27.png" alt="35 degree" style="width: 25%; height: auto;">
-</div>
-<div style="display: flex; justify-content: space-around; align-items: center; margin-top: 10px;">
-    <p style="text-align: center; width: 25%;">0 degree</p>
-    <p style="text-align: center; width: 25%;">15 degree</p>
-    <p style="text-align: center; width: 25%;">30 degree</p>
-    <p style="text-align: center; width: 25%;">35 degree</p>
+<div align="center">
+    <table>
+        <tr>
+            <td align="center"><img src="../img/image-24.png" alt="0 degree" style="width: 100%; height: auto;"><br>0 degree</td>
+            <td align="center"><img src="../img/image-25.png" alt="15 degree" style="width: 100%; height: auto;"><br>15 degree</td>
+            <td align="center"><img src="../img/image-26.png" alt="30 degree" style="width: 100%; height: auto;"><br>30 degree</td>
+            <td align="center"><img src="../img/image-27.png" alt="35 degree" style="width: 100%; height: auto;"><br>35 degree</td>
+        </tr>
+    </table>
 </div>
 
-<div style="display: flex; justify-content: space-around; align-items: center;">
-    <img src="../img/image-28.png" alt="40 degree" style="width: 25%; height: auto;">
-    <img src="../img/image-29.png" alt="45 degree" style="width: 25%; height: auto;">
-    <img src="../img/image-30.png" alt=">= 55 degree" style="width: 25%; height: auto;">
+<div align="center">
+    <table>
+        <tr>
+            <td align="center"><img src="../img/image-28.png" alt="40 degree" style="width: 100%; height: auto;"><br>40 degree</td>
+            <td align="center"><img src="../img/image-29.png" alt="45 degree" style="width: 100%; height: auto;"><br>45 degree</td>
+            <td align="center"><img src="../img/image-30.png" alt=">= 55 degree" style="width: 100%; height: auto;"><br>>= 55 degree</td>
+        </tr>
+    </table>
 </div>
-<div style="display: flex; justify-content: space-around; align-items: center; margin-top: 10px;">
-    <p style="text-align: center; width: 22%;">40 degree</p>
-    <p style="text-align: center; width: 22%;">45 degree</p>
-    <p style="text-align: center; width: 22%;">>= 55 degree</p>
-</div>
-
 
 #### 1.2.3 Conclusion
 > elmask is used to calculate the minimum satellite elevation of the position. I usually set it to 10-15 degrees to reduce the chance of introducing multipath into the solution, but this setting will depend on the mobile station environment. The more open the sky view, the lower this value can be set. In Dynamic dataset, it reach best performance when elmask set to 45 degree.
 
 ### 1.3 pos1-Filter type
 #### 1.3.1 Dynamic Data
-<div style="display: flex; justify-content: space-around; align-items: center;">
-    <img src="../img/image-10.png" alt=" " style="width: 25%; height: auto;">
-    <img src="../img/image-11.png" alt=" " style="width: 25%; height: auto;">
-    <img src="../img/image-12.png" alt=" " style="width: 25%; height: auto;">
-    <img src="../img/image-13.png" alt=" " style="width: 25%; height: auto;">
-</div>
-<div style="display: flex; justify-content: space-around; align-items: center; margin-top: 10px;">
-    <p style="text-align: center; width: 25%;">forward</p>
-    <p style="text-align: center; width: 25%;">backward</p>
-    <p style="text-align: center; width: 25%;">combined</p>
-    <p style="text-align: center; width: 25%;">combined - no phase reset</p>
+<div align="center">
+    <table>
+        <tr>
+            <td align="center"><img src="../img/image-10.png" alt=" " style="width: 100%; height: auto;"><br>forward</td>
+            <td align="center"><img src="../img/image-11.png" alt=" " style="width: 100%; height: auto;"><br>backward</td>
+            <td align="center"><img src="../img/image-12.png" alt=" " style="width: 100%; height: auto;"><br>combined</td>
+            <td align="center"><img src="../img/image-13.png" alt=" " style="width: 100%; height: auto;"><br>combined - no phase reset</td>
+        </tr>
+    </table>
 </div>
 
 #### 1.3.2 UrbanNav - Medium
-<div style="display: flex; justify-content: space-around; align-items: center;">
-    <img src="../img/image-32.png" alt=" " style="width: 25%; height: auto;">
-    <img src="../img/image-34.png" alt=" " style="width: 25%; height: auto;">
-    <img src="../img/image-33.png" alt=" " style="width: 25%; height: auto;">
-    <img src="../img/image-35.png" alt=" " style="width: 25%; height: auto;">
-</div>
-<div style="display: flex; justify-content: space-around; align-items: center; margin-top: 10px;">
-    <p style="text-align: center; width: 25%;">forward</p>
-    <p style="text-align: center; width: 25%;">backward</p>
-    <p style="text-align: center; width: 25%;">combined</p>
-    <p style="text-align: center; width: 25%;">combined - no phase reset</p>
+<div align="center">
+    <table>
+        <tr>
+            <td align="center"><img src="../img/image-32.png" alt=" " style="width: 100%; height: auto;"><br>forward</td>
+            <td align="center"><img src="../img/image-34.png" alt=" " style="width: 100%; height: auto;"><br>backward</td>
+            <td align="center"><img src="../img/image-33.png" alt=" " style="width: 100%; height: auto;"><br>combined</td>
+            <td align="center"><img src="../img/image-35.png" alt=" " style="width: 100%; height: auto;"><br>combined - no phase reset</td>
+        </tr>
+    </table>
 </div>
 
 #### 1.3.3 Conclusion
@@ -133,31 +121,47 @@
 
 ### 1.4 pos1-SNR Mask
 #### 1.4.1 Dynamic Data
-<div style="display: flex; justify-content: space-around; align-items: center;">
-    <img src="../img/image-19.png" alt=" " style="width: 25%; height: auto;">
-    <img src="../img/image-15.png" alt=" " style="width: 25%; height: auto;">
-    <img src="../img/image-17.png" alt=" " style="width: 25%; height: auto;">
-    <img src="../img/image-22.png" alt=" " style="width: 25%; height: auto;">
+<div align="center">
+    <table>
+        <tr>
+            <td align="center"><img src="../img/image-19.png" alt=" " style="width: 100%; height: auto;"><br></td>
+            <td align="center"><img src="../img/image-15.png" alt=" " style="width: 100%; height: auto;"><br></td>
+            <td align="center"><img src="../img/image-17.png" alt=" " style="width: 100%; height: auto;"><br></td>
+            <td align="center"><img src="../img/image-22.png" alt=" " style="width: 100%; height: auto;"><br></td>
+        </tr>
 </div>
-<div style="display: flex; justify-content: space-around; align-items: center; margin-top: 10px;">
-    <img src="../img/image-20.png" alt=" " style="width: 25%; height: auto;">
-    <img src="../img/image-16.png" alt=" " style="width: 25%; height: auto;">
-    <img src="../img/image-18.png" alt=" " style="width: 25%; height: auto;">
-    <img src="../img/image-21.png" alt=" " style="width: 25%; height: auto;">
+<div align="center">
+    <table>
+        <tr>
+            <td align="center"><img src="../img/image-20.png" alt=" " style="width: 100%; height: auto;"><br></td>
+            <td align="center"><img src="../img/image-16.png" alt=" " style="width: 100%; height: auto;"><br></td>
+            <td align="center"><img src="../img/image-18.png" alt=" " style="width: 100%; height: auto;"><br></td>
+            <td align="center"><img src="../img/image-21.png" alt=" " style="width: 100%; height: auto;"><br></td>
+        </tr>
+    </table>
 </div>
 
+
 #### 1.4.2 UrbanNav - Medium
-<div style="display: flex; justify-content: space-around; align-items: center;">
-    <img src="../img/image-33.png" alt=" " style="width: 25%; height: auto;">
-    <img src="../img/image-37.png" alt=" " style="width: 25%; height: auto;">
-    <img src="../img/image-38.png" alt=" " style="width: 25%; height: auto;">
-    <img src="../img/image-39.png" alt=" " style="width: 25%; height: auto;">
+<div align="center">
+    <table>
+        <tr>
+            <td align="center"><img src="../img/image-33.png" alt=" " style="width: 100%; height: auto;"><br></td>
+            <td align="center"><img src="../img/image-37.png" alt=" " style="width: 100%; height: auto;"><br></td>
+            <td align="center"><img src="../img/image-38.png" alt=" " style="width: 100%; height: auto;"><br></td>
+            <td align="center"><img src="../img/image-39.png" alt=" " style="width: 100%; height: auto;"><br></td>
+        </tr>
+    </table>
 </div>
-<div style="display: flex; justify-content: space-around; align-items: center; margin-top: 10px;">
-    <img src="../img/image-20.png" alt=" " style="width: 25%; height: auto;">
-    <img src="../img/image-16.png" alt=" " style="width: 25%; height: auto;">
-    <img src="../img/image-18.png" alt=" " style="width: 25%; height: auto;">
-    <img src="../img/image-21.png" alt=" " style="width: 25%; height: auto;">
+<div align="center">
+    <table>
+        <tr>
+            <td align="center"><img src="../img/image-20.png" alt=" " style="width: 100%; height: auto;"><br></td>
+            <td align="center"><img src="../img/image-16.png" alt=" " style="width: 100%; height: auto;"><br></td>
+            <td align="center"><img src="../img/image-18.png" alt=" " style="width: 100%; height: auto;"><br></td>
+            <td align="center"><img src="../img/image-21.png" alt=" " style="width: 100%; height: auto;"><br></td>
+        </tr>
+    </table>
 </div>
 
 #### 1.4.3 Conclusion
@@ -165,23 +169,23 @@
 
 ### 1.5 pos1-RAIM FDE
 #### 1.5.1 Dynamic Data
-<div style="display: flex; justify-content: space-around; align-items: center;">
-    <img src="../img/image-19.png" alt=" " style="width: 45%; height: auto;">
-    <img src="../img/image-23.png" alt=" " style="width: 45%; height: auto;">
-</div>
-<div style="display: flex; justify-content: space-around; align-items: center; margin-top: 10px;">
-    <p style="text-align: center; width: 45%;">RAIM FDE OFF</p>
-    <p style="text-align: center; width: 45%;">RAIM FDE ON</p>
+<div align="center">
+    <table>
+        <tr>
+            <td align="center"><img src="../img/image-19.png" alt=" " style="width: 45%; height: auto;"><br>RAIM FDE OFF</td>
+            <td align="center"><img src="../img/image-23.png" alt=" " style="width: 45%; height: auto;"><br>RAIM FDE ON</td>
+        </tr>
+    </table>
 </div>
 
 #### 1.5.2 UrbanNav - Medium
-<div style="display: flex; justify-content: space-around; align-items: center;">
-    <img src="../img/image-33.png" alt=" " style="width: 45%; height: auto;">
-    <img src="../img/image-36.png" alt=" " style="width: 45%; height: auto;">
-</div>
-<div style="display: flex; justify-content: space-around; align-items: center; margin-top: 10px;">
-    <p style="text-align: center; width: 45%;">RAIM FDE OFF</p>
-    <p style="text-align: center; width: 45%;">RAIM FDE ON</p>
+<div align="center">
+    <table>
+        <tr>
+            <td align="center"><img src="../img/image-33.png" alt=" " style="width: 45%; height: auto;"><br>RAIM FDE OFF</td>
+            <td align="center"><img src="../img/image-36.png" alt=" " style="width: 45%; height: auto;"><br>RAIM FDE ON</td>
+        </tr>
+    </table>
 </div>
 
 #### 1.5.3 Conclusion
