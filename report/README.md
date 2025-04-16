@@ -15,6 +15,180 @@
     - **Processing speed**
     - **Robustness**
 
+### 1.1 pos1-frequency 
+#### 1.1.1 Dynamic Data
+<div style="display: flex; justify-content: space-around; align-items: center;">
+    <img src="../img/image.png" alt="L1" style="width: 30%; height: auto;">
+    <img src="../img/dynamic_1.png" alt="L1+L2/E5b" style="width: 30%; height: auto;">
+    <img src="../img/image-1.png" alt="L1+L2/E5b + L5/E5a+L6" style="width: 30%; height: auto;">
+</div>
+<div style="display: flex; justify-content: space-around; align-items: center; margin-top: 10px;">
+    <p style="text-align: center; width: 30%;">L1</p>
+    <p style="text-align: center; width: 30%;">L1+L2/E5b</p>
+    <p style="text-align: center; width: 30%;">L1+L2/E5b + L5/E5a+L6</p>
+</div>
+
+#### 1.1.2 UrbanNav - Medium
+<div style="display: flex; justify-content: space-around; align-items: center;">
+    <img src="../img/image-31.png" alt="L1" style="width: 30%; height: auto;">
+    <img src="../img/image-25.png" alt="L1+L2/E5b" style="width: 30%; height: auto;">
+    <img src="../img/image-33.png" alt="L1+L2/E5b + L5/E5a" style="width: 30%; height: auto;">
+</div>
+<div style="display: flex; justify-content: space-around; align-items: center; margin-top: 10px;">
+    <p style="text-align: center; width: 30%;">L1</p>
+    <p style="text-align: center; width: 30%;">L1+L2/E5b</p>
+    <p style="text-align: center; width: 30%;">L1+L2/E5b + L5/E5a</p>
+</div>
+
+#### 1.1.3 Conclusion
+> L1 corresponds to a single frequency receiver, L1 + L2 corresponds to a dual frequency GPS/GLONASS/Bediou receiver, and if Galileo is included in the data, L1 + L2 + E5b is selected.
+
+### 1.2 pos1-elmask
+#### 1.2.1 Dynamic Data
+<div style="display: flex; justify-content: space-around; align-items: center;">
+    <img src="../img/image-3.png" alt="0 degree" style="width: 22%; height: auto;">
+    <img src="../img/image-2.png" alt="15 degree" style="width: 22%; height: auto;">
+    <img src="../img/image-4.png" alt="30 degree" style="width: 22%; height: auto;">
+    <img src="../img/image-6.png" alt="35 degree" style="width: 22%; height: auto;">
+</div>
+<div style="display: flex; justify-content: space-around; align-items: center; margin-top: 10px;">
+    <p style="text-align: center; width: 22%;">0 degree</p>
+    <p style="text-align: center; width: 22%;">15 degree</p>
+    <p style="text-align: center; width: 22%;">30 degree</p>
+    <p style="text-align: center; width: 22%;">35 degree</p>
+</div>
+
+<div style="display: flex; justify-content: space-around; align-items: center;">
+    <img src="../img/image-7.png" alt="40 degree" style="width: 25%; height: auto;">
+    <img src="../img/image-8.png" alt="45 degree" style="width: 25%; height: auto;">
+    <img src="../img/image-5.png" alt="50 degree" style="width: 25%; height: auto;">
+    <img src="../img/image-9.png" alt=">= 55 degree" style="width: 25%; height: auto;">
+</div>
+<div style="display: flex; justify-content: space-around; align-items: center; margin-top: 10px;">
+    <p style="text-align: center; width: 22%;">40 degree</p>
+    <p style="text-align: center; width: 22%;">45 degree</p>
+    <p style="text-align: center; width: 22%;">50 degree</p>
+    <p style="text-align: center; width: 22%;">>= 55 degree</p>
+</div>
+
+#### 1.2.2 UrbanNav - Medium
+<div style="display: flex; justify-content: space-around; align-items: center;">
+    <img src="../img/image-24.png" alt="0 degree" style="width: 25%; height: auto;">
+    <img src="../img/image-25.png" alt="15 degree" style="width: 25%; height: auto;">
+    <img src="../img/image-26.png" alt="30 degree" style="width: 25%; height: auto;">
+    <img src="../img/image-27.png" alt="35 degree" style="width: 25%; height: auto;">
+</div>
+<div style="display: flex; justify-content: space-around; align-items: center; margin-top: 10px;">
+    <p style="text-align: center; width: 25%;">0 degree</p>
+    <p style="text-align: center; width: 25%;">15 degree</p>
+    <p style="text-align: center; width: 25%;">30 degree</p>
+    <p style="text-align: center; width: 25%;">35 degree</p>
+</div>
+
+<div style="display: flex; justify-content: space-around; align-items: center;">
+    <img src="../img/image-28.png" alt="40 degree" style="width: 25%; height: auto;">
+    <img src="../img/image-29.png" alt="45 degree" style="width: 25%; height: auto;">
+    <img src="../img/image-30.png" alt=">= 55 degree" style="width: 25%; height: auto;">
+</div>
+<div style="display: flex; justify-content: space-around; align-items: center; margin-top: 10px;">
+    <p style="text-align: center; width: 22%;">40 degree</p>
+    <p style="text-align: center; width: 22%;">45 degree</p>
+    <p style="text-align: center; width: 22%;">>= 55 degree</p>
+</div>
+
+
+#### 1.2.3 Conclusion
+> elmask is used to calculate the minimum satellite elevation of the position. I usually set it to 10-15 degrees to reduce the chance of introducing multipath into the solution, but this setting will depend on the mobile station environment. The more open the sky view, the lower this value can be set. In Dynamic dataset, it reach best performance when elmask set to 45 degree.
+
+### 1.3 pos1-Filter type
+#### 1.3.1 Dynamic Data
+<div style="display: flex; justify-content: space-around; align-items: center;">
+    <img src="../img/image-10.png" alt=" " style="width: 25%; height: auto;">
+    <img src="../img/image-11.png" alt=" " style="width: 25%; height: auto;">
+    <img src="../img/image-12.png" alt=" " style="width: 25%; height: auto;">
+    <img src="../img/image-13.png" alt=" " style="width: 25%; height: auto;">
+</div>
+<div style="display: flex; justify-content: space-around; align-items: center; margin-top: 10px;">
+    <p style="text-align: center; width: 25%;">forward</p>
+    <p style="text-align: center; width: 25%;">backward</p>
+    <p style="text-align: center; width: 25%;">combined</p>
+    <p style="text-align: center; width: 25%;">combined - no phase reset</p>
+</div>
+
+#### 1.3.2 UrbanNav - Medium
+<div style="display: flex; justify-content: space-around; align-items: center;">
+    <img src="../img/image-32.png" alt=" " style="width: 25%; height: auto;">
+    <img src="../img/image-34.png" alt=" " style="width: 25%; height: auto;">
+    <img src="../img/image-33.png" alt=" " style="width: 25%; height: auto;">
+    <img src="../img/image-35.png" alt=" " style="width: 25%; height: auto;">
+</div>
+<div style="display: flex; justify-content: space-around; align-items: center; margin-top: 10px;">
+    <p style="text-align: center; width: 25%;">forward</p>
+    <p style="text-align: center; width: 25%;">backward</p>
+    <p style="text-align: center; width: 25%;">combined</p>
+    <p style="text-align: center; width: 25%;">combined - no phase reset</p>
+</div>
+
+#### 1.3.3 Conclusion
+
+> Filter type Indicates the filtering direction using Kalman filtering. When processing in real time, forward is your only option. For post-processing, the combined performs a forward filter, a backward filter and then combines the results. For an epoch, if the filter in both directions of the epoch corresponds to a fixed solution, then the combined result corresponds to a fixed solution state, and the value takes the mean of the two fixed solutions, unless the difference between the two is too great, in which case the solution state will be a floating point solution. If there is a fixed solution in only one direction, the value of this fixed solution is taken and the state is fixed. If both directions are floating solutions, take their average and the state will be a floating solution. The combined pattern is not always better, because fixing errors in either direction usually results in the combined result being a floating-point solution and incorrect. The main advantage of combined is that it usually provides a fixed solution at the beginning of the data, whereas the forward-only mode alone takes a while to converge.
+
+### 1.4 pos1-SNR Mask
+#### 1.4.1 Dynamic Data
+<div style="display: flex; justify-content: space-around; align-items: center;">
+    <img src="../img/image-19.png" alt=" " style="width: 25%; height: auto;">
+    <img src="../img/image-15.png" alt=" " style="width: 25%; height: auto;">
+    <img src="../img/image-17.png" alt=" " style="width: 25%; height: auto;">
+    <img src="../img/image-22.png" alt=" " style="width: 25%; height: auto;">
+</div>
+<div style="display: flex; justify-content: space-around; align-items: center; margin-top: 10px;">
+    <img src="../img/image-20.png" alt=" " style="width: 25%; height: auto;">
+    <img src="../img/image-16.png" alt=" " style="width: 25%; height: auto;">
+    <img src="../img/image-18.png" alt=" " style="width: 25%; height: auto;">
+    <img src="../img/image-21.png" alt=" " style="width: 25%; height: auto;">
+</div>
+
+#### 1.4.2 UrbanNav - Medium
+<div style="display: flex; justify-content: space-around; align-items: center;">
+    <img src="../img/image-33.png" alt=" " style="width: 25%; height: auto;">
+    <img src="../img/image-37.png" alt=" " style="width: 25%; height: auto;">
+    <img src="../img/image-38.png" alt=" " style="width: 25%; height: auto;">
+    <img src="../img/image-39.png" alt=" " style="width: 25%; height: auto;">
+</div>
+<div style="display: flex; justify-content: space-around; align-items: center; margin-top: 10px;">
+    <img src="../img/image-20.png" alt=" " style="width: 25%; height: auto;">
+    <img src="../img/image-16.png" alt=" " style="width: 25%; height: auto;">
+    <img src="../img/image-18.png" alt=" " style="width: 25%; height: auto;">
+    <img src="../img/image-21.png" alt=" " style="width: 25%; height: auto;">
+</div>
+
+#### 1.4.3 Conclusion
+> SNR Mask is used to set the SNR threshold for every 5 degrees of elevation. It is common to leave all values unchanged and choose a value between 35 and 38 dB based on the nominal SNR. These values are used only when pos1-snrmask_x is set to on. If you use dual frequency, you also need to set pos1-snrmask_L2.
+
+### 1.5 pos1-RAIM FDE
+#### 1.5.1 Dynamic Data
+<div style="display: flex; justify-content: space-around; align-items: center;">
+    <img src="../img/image-19.png" alt=" " style="width: 45%; height: auto;">
+    <img src="../img/image-23.png" alt=" " style="width: 45%; height: auto;">
+</div>
+<div style="display: flex; justify-content: space-around; align-items: center; margin-top: 10px;">
+    <p style="text-align: center; width: 45%;">RAIM FDE OFF</p>
+    <p style="text-align: center; width: 45%;">RAIM FDE ON</p>
+</div>
+
+#### 1.5.2 UrbanNav - Medium
+<div style="display: flex; justify-content: space-around; align-items: center;">
+    <img src="../img/image-33.png" alt=" " style="width: 45%; height: auto;">
+    <img src="../img/image-36.png" alt=" " style="width: 45%; height: auto;">
+</div>
+<div style="display: flex; justify-content: space-around; align-items: center; margin-top: 10px;">
+    <p style="text-align: center; width: 45%;">RAIM FDE OFF</p>
+    <p style="text-align: center; width: 45%;">RAIM FDE ON</p>
+</div>
+
+#### 1.5.3 Conclusion
+> If a satellite's residual exceeds the threshold, it is excluded. Only those satellites with large errors will be excluded here, but the amount of computation will increase and the time will increase after enabling this option, so this option is usually disabled.
+
 ## 2. Strengths and Limitations
 - **Strengths**: Flexibility, robustness, ease of use.
 - **Limitations**: Computational efficiency, lack of specific features.
